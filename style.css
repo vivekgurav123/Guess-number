@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    background-color: #000;
+    margin: 0 auto;
+    padding: 0;
+    color: #fff;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+.side{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+header{
+    margin: 20px 0 60px 0;
+}
+
+header h1, header .number{
+    display: flex;
+    justify-content: center;
+}
+header h1{
+    font-size: 25px;
+}
+
+header .number{
+    background-color: #fff;
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 20px;
+    width: 7%;
+    margin: 0 auto;
+}
+
+main{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    padding: 50px 0;
+}
+.left{
+    text-align: left;
+}
+.left input{
+    display: block;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: 30%;
+    height: 50px;
+    /* margin: 0 auto; */
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+.left input:focus{
+    color: #fff;
+    text-align: center;
+    
+}
+.btn{
+    background-color: #fff;
+    padding: 12px 24px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Press Start 2P', cursive;
+}
+.right{
+    text-align: right;
+}
+.right .message{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.right .label-score, .right .label-highscore, .between{
+    font-size: 16px;
+}
+
+
+@media (max-width:425px){
+    header{
+        margin: 20px 0;
+    }
+    header h1{
+        font-size: 18px;
+    }
+    .between{
+        font-size: 10px;
+        text-align: right;
+    }
+    .btn{
+        padding: 7px 14px;
+        font-size: 12px;
+    }
+    header .number{
+        width: 23%;
+        font-size: 25px;
+    }
+    main{
+        padding: 25px 0;
+    }
+    .left input{
+        width: 80%;
+    }
+    .right{
+        text-align: left;
+    }
+    .right .message{
+        font-size: 10px;
+    }
+    .right .label-score, .right .label-highscore{
+        font-size: 8px;
+    }
+
+    
+       }
